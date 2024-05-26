@@ -35,3 +35,6 @@ The frontend allows users to input a long URL and shorten it using the backend A
 
 - Backend: Express.js, nanoid
 - Frontend: React.js, Axios, Font Awesome
+
+## Live link
+https://url-shortener-3vrh.vercel.app/
