@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/*additional css */
+.App{
+  background-color: #c0c5cb;
+  width: 800px;
+  padding: 6%;
+}
+
+.link-icon {
+  margin-right: 0.5rem;
+  color: #616467; 
+}
+
+
+.shortened-url-container {
+  margin-top: 20px;
+}
+
+.shortened-url-box {
+  display: flex;
+  align-items: center;
+  background-color: #e0d8d8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.shortened-url {
+  flex-grow: 1;
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.copy-icon {
+  cursor: pointer;
+  color: #007bff;
+}
+
+
+.copied-message {
+  color: rgb(17, 94, 3);
+  margin-left: 10px;
+}
+
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.url-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.shorten-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #1d6eca;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.shorten-button:hover {
+  background-color: #14406e;
+}
+
+
+.shorten-button:active {
+  background-color: #22303f;
+  transform: translateY(1px);
+}
